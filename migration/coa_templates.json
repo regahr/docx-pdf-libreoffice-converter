@@ -1,0 +1,545 @@
+{
+  "_id": {
+    "$oid": "64cb8e8f5a5fd31b23ebd992"
+  },
+  "name": "Master Template",
+  "type": "Master COA",
+  "coa": [
+    {
+      "code": "2000",
+      "reportCode": "INC.REV",
+      "name": "Sales",
+      "type": "Revenue",
+      "simplifiedName": "Sales",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Sales"
+    },
+    {
+      "code": "2070",
+      "reportCode": "INC.OTH",
+      "name": "Non-taxable Income",
+      "type": "Revenue",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "2530",
+      "reportCode": "INC.OTH",
+      "name": "Dividends Income",
+      "type": "Other Income",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "2570",
+      "reportCode": "INC.OTH",
+      "name": "Goverment Grant - Capital in Nature (non-taxable)",
+      "type": "Other Income",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "2580",
+      "reportCode": "INC.OTH",
+      "name": "Goverment Grant - Revenue in Nature (taxable)",
+      "type": "Other Income",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "2630",
+      "reportCode": "INC.OTH",
+      "name": "Other Income",
+      "type": "Other Income",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "3100",
+      "reportCode": "EXP.COGS",
+      "name": "Cost Of Goods Sold",
+      "type": "Direct Costs",
+      "simplifiedName": "Cost of goods sold / Inventory",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Cost of goods sold / Inventory"
+    },
+    {
+      "code": "3150",
+      "reportCode": "EXP.COGS",
+      "name": "Purchases",
+      "type": "Direct Costs",
+      "simplifiedName": "Cost of goods sold / Inventory",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Cost of goods sold / Inventory"
+    },
+    {
+      "code": "3401",
+      "reportCode": "EXP.COGS",
+      "name": "Freight & Delivery",
+      "type": "Direct Costs",
+      "simplifiedName": "Cost of goods sold / Inventory",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Cost of goods sold / Inventory"
+    },
+    {
+      "code": "3650",
+      "reportCode": "EXP.COGS",
+      "name": "Stock Adjustment",
+      "type": "Direct Costs",
+      "simplifiedName": "Cost of goods sold / Inventory",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Cost of goods sold / Inventory"
+    },
+    {
+      "code": "4000",
+      "reportCode": "EXP.ADM",
+      "name": "Accounting & Bookkeeping Fees",
+      "type": "Expense",
+      "simplifiedName": "Service Provider / Professional Fee",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Service Provider / Professional Fee"
+    },
+    {
+      "code": "4010",
+      "reportCode": "EXP.ADM",
+      "name": "Advertising & Marketing",
+      "type": "Expense",
+      "simplifiedName": "Advertising & Marketing",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Advertising & Marketing"
+    },
+    {
+      "code": "4030",
+      "reportCode": "EXP.ADM",
+      "name": "Audit and Tax fees",
+      "type": "Expense",
+      "simplifiedName": "Service Provider / Professional Fee",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Service Provider / Professional Fee"
+    },
+    {
+      "code": "4050",
+      "reportCode": "EXP.FIN",
+      "name": "Bank Fees",
+      "type": "Expense",
+      "simplifiedName": "Bank fees",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Bank fees"
+    },
+    {
+      "code": "4060",
+      "reportCode": "EXP.FIN",
+      "name": "Borrowing Expense",
+      "type": "Expense",
+      "simplifiedName": "Loan",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Loan"
+    },
+    {
+      "code": "4080",
+      "reportCode": "EXP.ADM",
+      "name": "Cleaning",
+      "type": "Expense",
+      "simplifiedName": "Office Expenses",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Office Expenses"
+    },
+    {
+      "code": "4100",
+      "reportCode": "EXP.ADM",
+      "name": "Commission Expense",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4130",
+      "reportCode": "EXP.SAL",
+      "name": "CPF Contribution - Directors",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4140",
+      "reportCode": "EXP.SAL",
+      "name": "CPF Contribution - Employee",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4150",
+      "reportCode": "EXP.SAL",
+      "name": "CPF Contribution - Employee - CDAC/ECF/MBMF/SINDA",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4161",
+      "reportCode": "EXP.SAL",
+      "name": "CPF Contribution - Employer - FWL/ SDL/ Levy",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4200",
+      "reportCode": "EXP.OP",
+      "name": "Depreciation",
+      "type": "Depreciation",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4210",
+      "reportCode": "EXP.SAL",
+      "name": "Director fees",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4220",
+      "reportCode": "EXP.OTH",
+      "name": "Donations Expense",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4230",
+      "reportCode": "EXP.ADM",
+      "name": "Entertainment Expense",
+      "type": "Expense",
+      "simplifiedName": "Meals and Entertainment",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Meals and Entertainment"
+    },
+    {
+      "code": "4250",
+      "reportCode": "EXP.OTH",
+      "name": "Fines & Penalties",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4280",
+      "reportCode": "EXP.ADM",
+      "name": "General expenses (non-tax deductible)",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4290",
+      "reportCode": "EXP.ADM",
+      "name": "General expenses (tax deductible)",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4310",
+      "reportCode": "EXP.TAX",
+      "name": "Income Tax Expense",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4320",
+      "reportCode": "EXP.ADM",
+      "name": "Insurance - Business",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4330",
+      "reportCode": "EXP.FIN",
+      "name": "Interest expense",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4340",
+      "reportCode": "EXP.ADM",
+      "name": "Internet & Telephone expense",
+      "type": "Expense",
+      "simplifiedName": "Utilities",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Utilities"
+    },
+    {
+      "code": "4360",
+      "reportCode": "EXP.OP",
+      "name": "Lease Expense",
+      "type": "Expense",
+      "simplifiedName": "Rental",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Rental"
+    },
+    {
+      "code": "4370",
+      "reportCode": "EXP.ADM",
+      "name": "Legal and Professional fees",
+      "type": "Direct Costs",
+      "simplifiedName": "Service Provider / Professional Fee",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Service Provider / Professional Fee"
+    },
+    {
+      "code": "4380",
+      "reportCode": "EXP.ADM",
+      "name": "Utilities",
+      "type": "Expense",
+      "simplifiedName": "Utilities",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Utilities"
+    },
+    {
+      "code": "4400",
+      "reportCode": "EXP.ADM",
+      "name": "Medical expense",
+      "type": "Expense",
+      "simplifiedName": "Employee Welfare",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Employee Welfare"
+    },
+    {
+      "code": "4410",
+      "reportCode": "EXP.ADM",
+      "name": "Office Expenses",
+      "type": "Expense",
+      "simplifiedName": "Office Expenses",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Office Expenses"
+    },
+    {
+      "code": "4430",
+      "reportCode": "EXP.ADM",
+      "name": "Postage and Courier",
+      "type": "Expense",
+      "simplifiedName": "Office Expenses",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Office Expenses"
+    },
+    {
+      "code": "4440",
+      "reportCode": "EXP.ADM",
+      "name": "Printing and Stationery Expense",
+      "type": "Expense",
+      "simplifiedName": "Office Expenses",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Office Expenses"
+    },
+    {
+      "code": "4450",
+      "reportCode": "EXP.ADM",
+      "name": "Property Tax Expense",
+      "type": "Expense",
+      "simplifiedName": "Office Expenses",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Office Expenses"
+    },
+    {
+      "code": "4480",
+      "reportCode": "EXP.OP",
+      "name": "Rent expense",
+      "type": "Expense",
+      "simplifiedName": "Rental",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Rental"
+    },
+    {
+      "code": "4485",
+      "reportCode": "EXP.OP",
+      "name": "Motor Vehicle Expenses",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "Standard-Rated Purchases (7%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4490",
+      "reportCode": "EXP.OP",
+      "name": "Repairs and maintenance",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4500",
+      "reportCode": "EXP.OP",
+      "name": "Research and development expense",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4510",
+      "reportCode": "EXP.SAL",
+      "name": "Salaries & Wages",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4520",
+      "reportCode": "EXP.SAL",
+      "name": "Salaries & Wages - Bonus/Incentives",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4530",
+      "reportCode": "EXP.SAL",
+      "name": "Salaries & Wages - Director's Remuneration",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4540",
+      "reportCode": "EXP.SAL",
+      "name": "Salaries & Wages - Overtime",
+      "type": "Expense",
+      "simplifiedName": "Salary",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Salary"
+    },
+    {
+      "code": "4560",
+      "reportCode": "EXP.ADM",
+      "name": "Secretarial Service Fee",
+      "type": "Expense",
+      "simplifiedName": "Service Provider / Professional Fee",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Service Provider / Professional Fee"
+    },
+    {
+      "code": "4570",
+      "reportCode": "EXP.ADM",
+      "name": "Seminars & Conferences",
+      "type": "Expense",
+      "simplifiedName": "Others",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Others"
+    },
+    {
+      "code": "4580",
+      "reportCode": "EXP.ADM",
+      "name": "Software Subscriptions",
+      "type": "Direct Costs",
+      "simplifiedName": "Software subscriptions",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Software subscriptions"
+    },
+    {
+      "code": "4595",
+      "reportCode": "EXP.ADM",
+      "name": "Insurance - Staff",
+      "type": "Expense",
+      "simplifiedName": "Employee Welfare",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Employee Welfare"
+    },
+    {
+      "code": "4600",
+      "reportCode": "EXP.ADM",
+      "name": "Staff Training & Development Expense",
+      "type": "Expense",
+      "simplifiedName": "Employee Welfare",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Employee Welfare"
+    },
+    {
+      "code": "4620",
+      "reportCode": "EXP.ADM",
+      "name": "Transport - Commercial Vehicle",
+      "type": "Expense",
+      "simplifiedName": "Local Transport",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Local Transport"
+    },
+    {
+      "code": "4630",
+      "reportCode": "EXP.ADM",
+      "name": "Transport - Private Vehicle",
+      "type": "Expense",
+      "simplifiedName": "Local Transport",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Local Transport"
+    },
+    {
+      "code": "4640",
+      "reportCode": "EXP.ADM",
+      "name": "Travel - International",
+      "type": "Expense",
+      "simplifiedName": "Travel",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Travel"
+    },
+    {
+      "code": "4650",
+      "reportCode": "EXP.ADM",
+      "name": "Travel - Local",
+      "type": "Expense",
+      "simplifiedName": "Local Transport",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Local Transport"
+    },
+    {
+      "code": "498",
+      "reportCode": "EXP.FOR.UGL",
+      "name": "Unrealised Currency Gains",
+      "type": "Unrealized Currency Gains",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    },
+    {
+      "code": "499",
+      "reportCode": "EXP.FOR.RGL",
+      "name": "Realised Currency Gains",
+      "type": "Realized Currency Gains",
+      "simplifiedName": "Other Income",
+      "taxCode": "No Tax (0%)",
+      "financialStatementCaption": "Other Income"
+    }
+  ],
+  "version": "4",
+  "isLive": true,
+  "liveDate": {
+    "$date": "2023-08-03T11:25:03.207Z"
+  }
+}

@@ -1,0 +1,170 @@
+[
+    {
+  "_id": {
+    "$oid": "6450e1280a375781b45e3711"
+  },
+  "niumWalletId": "62186128-eedc-46fe-9304-9a9ed5e0933f",
+  "balance": 663.23,
+  "holdingBalance": 0,
+  "currency": "SGD",
+  "default": true,
+  "createdBy": "643caa8cd116ab44541c5589",
+  "organizationId": "643caa8cd116ab44541c5589",
+  "createdAt": {
+    "$date": "2023-05-02T10:08:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-13T08:22:56.705Z"
+  },
+  "__v": 0,
+  "virtualAccounts": {
+    "local": {
+      "currencyCode": "SGD",
+      "accountName": "TEG TICKETING ASIA PTE. LTD.",
+      "accountType": "LOCAL",
+      "accountNumber": "8850932984178",
+      "bankName": "DBS_SG",
+      "fullBankName": "DBS SINGAPORE",
+      "bankAddress": "DBS ASIA CENTRAL MBFC TOWER 3, 12 MARINA BOULEVARD - Post Code: 018982",
+      "routingCodeType1": "SWIFT",
+      "routingCodeValue1": "DBSSSGSG",
+      "routingCodeType2": null,
+      "routingCodeValue2": null,
+      "accountNameMPES": "",
+      "bankCode": "",
+      "branchCode": "",
+      "isVanLocked": true
+    },
+    "overseas": {
+      "currencyCode": "SGD",
+      "accountName": "TEG TICKETING ASIA PTE. LTD.",
+      "accountType": "GLOBAL",
+      "accountNumber": "33030514441",
+      "bankName": "CITI_SG",
+      "fullBankName": "Citibank Singapore",
+      "bankAddress": "3 Changi Business Park Crescent, Tower 1 #07-00, Singapore, 486026",
+      "routingCodeType1": "SWIFT",
+      "routingCodeValue1": "CITISGSG",
+      "routingCodeType2": null,
+      "routingCodeValue2": null,
+      "accountNameMPES": "",
+      "bankCode": "",
+      "branchCode": "",
+      "isVanLocked": true
+    }
+  },
+  "updatedBy": "santi.suksesi@gmail.com"
+},
+{
+    "_id": {
+      "$oid": "64a6253e8319b923542132c4"
+    },
+    "__v": 0,
+    "balance": 654.95,
+    "createdAt": {
+      "$date": "2023-05-02T10:08:40.182Z"
+    },
+    "createdBy": "643caa8cd116ab44541c5589",
+    "currency": "USD",
+    "default": false,
+    "holdingBalance": 0,
+    "niumWalletId": "62186128-eedc-46fe-9304-9a9ed5e0933f",
+    "organizationId": "643caa8cd116ab44541c5589",
+    "updatedAt": {
+      "$date": "2023-09-13T07:37:59.900Z"
+    },
+    "updatedBy": "santi.suksesi@gmail.com",
+    "virtualAccounts": {
+      "local": {
+        "currencyCode": "USD",
+        "accountName": "TEG TICKETING ASIA PTE. LTD.",
+        "accountType": "LOCAL",
+        "accountNumber": "85145600963",
+        "bankName": "CFSB_USINTL",
+        "fullBankName": "COMMUNITY FEDERAL SAVINGS BANK",
+        "bankAddress": "89-16 JAMAICA AVENUE, NEW YORK, United States 11421",
+        "routingCodeType1": "ABA (ACH)",
+        "routingCodeValue1": "026073150",
+        "routingCodeType2": "ABA (Wire)",
+        "routingCodeValue2": "026073008",
+        "accountNameMPES": "",
+        "bankCode": "",
+        "branchCode": "",
+        "isVanLocked": true
+      },
+      "overseas": {
+        "currencyCode": "USD",
+        "accountName": "TEG TICKETING ASIA PTE. LTD.",
+        "accountType": "GLOBAL",
+        "accountNumber": "200243915551",
+        "bankName": "JPM_SG",
+        "fullBankName": "JPMorgan Chase Bank N.A., Singapore Branch",
+        "bankAddress": "88 Market Street, CapitaSpring, Singapore 048948",
+        "routingCodeType1": "SWIFT",
+        "routingCodeValue1": "CHASSGSG",
+        "routingCodeType2": null,
+        "routingCodeValue2": null,
+        "accountNameMPES": "",
+        "bankCode": "",
+        "branchCode": "",
+        "isVanLocked": true
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64c1d9553c849f2e4adf6535"
+    },
+    "niumWalletId": "62186128-eedc-46fe-9304-9a9ed5e0933f",
+    "balance": 5.47,
+    "holdingBalance": 0,
+    "currency": "EUR",
+    "default": false,
+    "createdBy": "643caa8cd116ab44541c5589",
+    "organizationId": "643caa8cd116ab44541c5589",
+    "createdAt": {
+      "$date": "2023-07-27T02:41:25.374Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:37:59.889Z"
+    },
+    "__v": 0,
+    "updatedBy": "santi.suksesi@gmail.com",
+    "virtualAccounts": {
+      "local": {
+        "currencyCode": "EUR",
+        "accountName": "TEG TICKETING ASIA PTE. LTD.",
+        "accountType": "LOCAL",
+        "accountNumber": "LT713590020000007107",
+        "bankName": "BOL_LT",
+        "fullBankName": "UAB NIUM EU",
+        "bankAddress": "Konstitucijos pr. 21C, Vilnius, Lithuania",
+        "routingCodeType1": "BIC",
+        "routingCodeValue1": "UAINLT21XXX",
+        "routingCodeType2": null,
+        "routingCodeValue2": null,
+        "accountNameMPES": "",
+        "bankCode": "",
+        "branchCode": "",
+        "isVanLocked": true
+      },
+      "overseas": {
+        "currencyCode": "EUR",
+        "accountName": "TEG TICKETING ASIA PTE. LTD.",
+        "accountType": "GLOBAL",
+        "accountNumber": "200243954167",
+        "bankName": "JPM_SG",
+        "fullBankName": "JPMorgan Chase Bank N.A., Singapore Branch",
+        "bankAddress": "88 Market Street, CapitaSpring, Singapore 048948",
+        "routingCodeType1": "SWIFT",
+        "routingCodeValue1": "CHASSGSG",
+        "routingCodeType2": null,
+        "routingCodeValue2": null,
+        "accountNameMPES": "",
+        "bankCode": "",
+        "branchCode": "",
+        "isVanLocked": true
+      }
+    }
+  }
+]

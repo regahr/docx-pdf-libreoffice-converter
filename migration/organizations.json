@@ -1,0 +1,45 @@
+{
+  "_id": {
+    "$oid": "643caa8cd116ab44541c5589"
+  },
+  "users": [
+    {
+      "userId": "64d0d220a649a8d4f134c722",
+      "status": "ACTIVE",
+      "role": "APPROVER",
+      "generatedEmail": "william.haw@staging.doc.grof.co",
+      "niumCustomerHashId": "a97fc228-6c9c-4b22-a93d-632ae354e1c7"
+    }
+  ],
+  "companyName": "TRIVIUM CASH PTE. LTD.",
+  "freemiumDetails": {
+    "registrationCountry": "SG",
+    "primaryCurrency": "SGD"
+  },
+  "subscriptionDetails": {
+    "addOns": []
+  },
+  "isPremium": true,
+  "status": {
+    "organizationStatus": "ACTIVE",
+    "accessLevelStatus": "PREMIUM",
+    "baCreationStatus": "COMPLETED",
+    "applicationStatus": "COMPLETED",
+    "artemisStatus": "Approved",
+    "niumComplianceStatus": "COMPLETED"
+  },
+  "organizationPlan": "BUSINESS",
+  "createdAt": {
+    "$date": "2023-04-17T02:10:20.323Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-07T15:59:37.401Z"
+  },
+  "__v": 12,
+  "niumCaseId": "c81b799b-bddd-43ef-be3b-9dfa2ae3280f",
+  "niumClientId": "NIM1681724346402",
+  "niumCustomerId": "8c3f5d3d-d7a9-4694-9fb8-78a5208eb6b0",
+  "companyId": {
+    "$oid": "6450e1280a375781b45e3715"
+  }
+}
