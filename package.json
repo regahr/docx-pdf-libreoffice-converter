@@ -1,72 +1,27 @@
 {
   "name": "rest-service-template",
   "version": "1.0.0",
-  "description": "Sprout Asia code template for REST API service",
+  "description": "Dev RHR Code template for Nodejs REST API service",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=dev nodemon --watch ./app --delay 500ms --exec babel-node ./app/app.js",
-    "dev:windows": "set \"NODE_ENV=dev\" &&  nodemon --watch ./app --delay 500ms --exec babel-node ./app/app.js",
-    "test": "NODE_ENV=test mocha",
-    "test:windows": "set \"NODE_ENV=test\" && mocha",
-    "test:coverage": "rm -rf coverage && nyc --reporter=text --reporter=lcov mocha",
-    "lint": "echo 'Running lint...' && eslint app/",
-    "lint:fix": "eslint app/ --fix",
-    "prepush": "npm run lint && npm run test:windows",
     "build-server": "babel -d ./build ./app -s",
-    "start": "node ./build/app.js",
-    "run-script:migrate-recipient": "NODE_ENV=dev babel-node ./app/scripts/recipient-migration.js",
-    "run-script:change-image-country": "NODE_ENV=dev babel-node ./app/scripts/system-variable-country-image-changer.js",
-    "run-script:refresh-countries": "NODE_ENV=dev babel-node ./app/scripts/system-variable-refresh-countries.js",
-    "run-script:coa-new-version": "NODE_ENV=dev babel-node ./app/scripts/coa-template-migration.js",
-    "run-script:generate-user-email": "NODE_ENV=dev babel-node ./app/scripts/generate-email-bill-recipient.js",
-    "run-script:sweep-remit-bank-fee": "NODE_ENV=dev babel-node ./app/scripts/sweep-remit-bank-fee-on-swift-trx.js",
-    "run-script:init-roles": "NODE_ENV=dev babel-node ./app/scripts/init-roles.js",
-    "run-script:sysvar-rwc-migration": "NODE_ENV=dev babel-node ./app/scripts/system-variable-rwc-migration.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SproutAsia/sprout-finance-api.git"
+    "start": "node ./build/app.js"
   },
   "keywords": [
-    "sprout-asia",
-    "finance"
+    "dev-rhr"
   ],
-  "author": "Dev Team Sprout",
+  "author": "Rega HR",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SproutAsia/sprout-finance-api/issues"
-  },
-  "homepage": "https://github.com/SproutAsia/sprout-finance-api#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "amazon-cognito-identity-js": "^5.2.8",
-    "@aws-sdk/client-s3": "^3.43.0",
-    "analytics-node": "^6.2.0",
-    "axios": "^0.23.0",
-    "bcrypt": "^5.0.1",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
+    "bluebird": "^3.7.2",
     "compression": "^1.7.4",
-    "cookie-parser": "^1.4.5",
-    "cors": "^2.8.5",
-    "crypto-js": "^4.1.1",
-    "dotenv": "^10.0.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.1",
-    "http-errors": "^1.8.0",
-    "ion-js": "^4.3.0",
-    "joi": "^17.4.2",
-    "jsbi": "^4.3.0",
-    "jsonwebtoken": "^8.5.1",
-    "level": "^8.0.0",
+    "libreoffice-convert": "^1.4.1",
     "lodash": "^4.17.21",
-    "moment": "^2.29.1",
-    "moment-timezone": "^0.5.42",
-    "mongoose": "^6.0.12",
     "morgan": "^1.10.0",
-    "multer": "^1.4.3",
-    "nyc": "^15.1.0",
-    "rotating-file-stream": "^1.4.0",
-    "uuid": "^9.0.0"
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
